@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'jam:offline',
+  name: 'graemian:offline',
   version: '0.3.2',
   summary: 'An easy way to give your Meteor app offline capabilities and make it feel instant',
-  git: 'https://github.com/jamauro/offline',
+  git: 'https://github.com/graemian/offline',
   documentation: 'README.md'
 });
 
