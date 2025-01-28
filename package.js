@@ -27,6 +27,6 @@ Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
   api.use('mongo-id', 'client');
-  api.use('jam:offline');
+  api.use('graemian:offline');
   api.mainModule('tests.js');
 });
