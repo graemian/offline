@@ -4,7 +4,7 @@ import './lib/ddp';
 import './lib/subscribe';
 import { isSyncing } from './lib/sync';
 import { Offline } from './lib/config';
-import { queueMethod, clearAll } from './lib/idb';
+import { queueMethod, clearAll, clear } from './lib/idb';
 
 const originalDebug = Meteor._debug;
 Meteor._debug = function (m, s) {
@@ -12,4 +12,4 @@ Meteor._debug = function (m, s) {
   return originalDebug.call(this, m, s);
 }
 
-export { Offline, isSyncing, queueMethod, clearAll };
+export { Offline, isSyncing, queueMethod, clearAll, clear };
