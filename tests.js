@@ -4,7 +4,7 @@ import { Mongo } from 'meteor/mongo';
 import { Random } from 'meteor/random';
 import { Tracker } from 'meteor/tracker';
 import { offlineCollections } from './lib/mongo';
-import { Offline, clearAll, queueMethod } from 'meteor/jam:offline';
+import { Offline, clearAll, queueMethod } from 'meteor/graemian:offline';
 import { deepReplace, deepContains } from './lib/utils/shared';
 const { getAll, canQueue, removeWithRetry } = Meteor.isClient && require('./lib/idb');
 
